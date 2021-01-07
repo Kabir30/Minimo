@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+/* global css*/
+.container{
+    width: 1140px;
+    margin: auto;
+}
+ul{
+    list-style: none
+}
+a{
+    text-decoration: none;
+}
+/*header section css*/
+.header-section{
+    padding: 30px 0;
+}
+.logo{
+    float: left;
+    display: flow-root;
+}
+.menu{
+    float: right;
+    display: flow-root;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 15px;
+    margin-right: 15px;
+}
+.menu ul li a{
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+.menu ul li a:hover{}
+
+/*post desc css*/
+.banner{
+    margin-bottom: 60px;
+}
+.first-post {
+    padding: 50px;`
+}
+.first-post h4{
+    text-transform: uppercase;
+    color: #dbd8d2;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+}
+.first-post h1{
+    color: #626262;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+.first-post p{
+    color: #b6b6b6;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+.first-post a{
+    text-transform: uppercase;
+    color: #dbd8d2;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*blogpost css*/
+.post{
+    padding: 50px;
+    width: 100%;
+    display: flow-root;
+}
+.post-1{
+    width: 48%;
+    float: left;
+    display: flow-root;
+}
+.post-2{
+    width: 48%;
+    float: right;
+    display: flow-root;
+}
+.post-1 h4, .post-2 h4{
+    color:#c7c1b6;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+.post-1 h1, .post-2 h1{
+     color:#626262;
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.post-1 p, .post-2 p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+    color: #777777;
+    padding-bottom: 80px;
+}
+/*newsletter css start here*/
+.newsletter{
+    background: #f0f0f0;
+}
+
+.subscribe {
+    text-align: center;
+    padding: 50px 0;
+}
+.subscribe h1{
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 60px;
+    color: #333333;
+    font-weight: 400;
+    
+}
+.contact-mail{
+    width: 32%;
+    padding: 20px;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+}
+    
+.contact-mail:focus{
+    outline: 0;
+}
+.contact-mail::placeholder{
+    font-family: 'Playfair Display', serif;
+    color:#626262;
+    font-size: 14px;
+    font-weight: 300;
+}
+i{
+    
+    color: #848483;
+    
+}
+/*more post section*/
+.more-post {
+    margin-top: 50px;
+}
+/*Button class*/
+.btn-load {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.btn-load button{
+    font-family: 'Playfair Display', serif;
+    color:#626262;
+    padding: 15px;
+    width: 150px;
+    background: transparent;
+    border: 1px solid #626262;
+}
+
+.btn-load button:focus{
+    outline: 0;
+    cursor: pointer;
+}
+/*footer class css*/
+.footer {
+    background: #f0f0f0;
+    padding: 20px 0;
+    display: flow-root;
+}
+
+.footer-left {
+    widows: 50%;
+    float: left;
+    display: flow-root;
+}
+.footer-left a{
+    font-family: 'Playfair Display', serif;
+    color:#202020;
+    margin-right: 15px;
+}
+.footer-right {
+    width:50%;
+    float: right;
+    text-align: right;
+    display: flow-root;
+    
+}
+.footer-right p{
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    margin-right: 18px;
+    color:#202020;
+}
+.footer-right a i{
+    color:#626262;
+    margin-right: 10px;
+}
