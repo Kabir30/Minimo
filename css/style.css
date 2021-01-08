@@ -110,13 +110,13 @@ a{
     font-weight: 400;
     font-size: 24px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 .post-1 p, .post-2 p{
     font-weight: 300;
     font-size: 15px;
     line-height: 1.5;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #777777;
     padding-bottom: 80px;
 }
@@ -165,13 +165,13 @@ i{
 /*Button class*/
 .btn-load {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 .btn-load button{
     font-family: 'Playfair Display', serif;
     color:#626262;
     padding: 15px;
-    width: 150px;
+    width: 200px;
     background: transparent;
     border: 1px solid #626262;
 }
